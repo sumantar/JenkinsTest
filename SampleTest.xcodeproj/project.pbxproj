@@ -355,10 +355,14 @@
 		1EF44B19157BB65D00A9848A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sumanta Rout (3EZR523YZ4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumanta Rout (3EZR523YZ4)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleTest/SampleTest-Prefix.pch";
 				INFOPLIST_FILE = "SampleTest/SampleTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B40F9E4A-A482-4421-92D5-8F2560ED8FD0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B40F9E4A-A482-4421-92D5-8F2560ED8FD0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -366,10 +370,14 @@
 		1EF44B1A157BB65D00A9848A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sumanta Rout (3EZR523YZ4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumanta Rout (3EZR523YZ4)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleTest/SampleTest-Prefix.pch";
 				INFOPLIST_FILE = "SampleTest/SampleTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B40F9E4A-A482-4421-92D5-8F2560ED8FD0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B40F9E4A-A482-4421-92D5-8F2560ED8FD0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -427,6 +435,7 @@
 				1EF44B1A157BB65D00A9848A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EF44B1B157BB65D00A9848A /* Build configuration list for PBXNativeTarget "SampleTestTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +444,7 @@
 				1EF44B1D157BB65D00A9848A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

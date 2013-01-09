@@ -361,8 +361,8 @@
 				GCC_PREFIX_HEADER = "SampleTest/SampleTest-Prefix.pch";
 				INFOPLIST_FILE = "SampleTest/SampleTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B40F9E4A-A482-4421-92D5-8F2560ED8FD0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B40F9E4A-A482-4421-92D5-8F2560ED8FD0";
+				PROVISIONING_PROFILE = "798CA8BF-5B3A-4C2C-BA6E-C5546E3F89AE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "798CA8BF-5B3A-4C2C-BA6E-C5546E3F89AE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -376,8 +376,8 @@
 				GCC_PREFIX_HEADER = "SampleTest/SampleTest-Prefix.pch";
 				INFOPLIST_FILE = "SampleTest/SampleTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B40F9E4A-A482-4421-92D5-8F2560ED8FD0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B40F9E4A-A482-4421-92D5-8F2560ED8FD0";
+				PROVISIONING_PROFILE = "798CA8BF-5B3A-4C2C-BA6E-C5546E3F89AE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "798CA8BF-5B3A-4C2C-BA6E-C5546E3F89AE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -386,8 +386,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleTest.app/SampleTest";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sumanta Rout (3EZR523YZ4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumanta Rout (3EZR523YZ4)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -396,6 +396,8 @@
 				GCC_PREFIX_HEADER = "SampleTest/SampleTest-Prefix.pch";
 				INFOPLIST_FILE = "SampleTestTests/SampleTestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "798CA8BF-5B3A-4C2C-BA6E-C5546E3F89AE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "798CA8BF-5B3A-4C2C-BA6E-C5546E3F89AE";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -405,8 +407,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleTest.app/SampleTest";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sumanta Rout (3EZR523YZ4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumanta Rout (3EZR523YZ4)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -415,6 +417,8 @@
 				GCC_PREFIX_HEADER = "SampleTest/SampleTest-Prefix.pch";
 				INFOPLIST_FILE = "SampleTestTests/SampleTestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "798CA8BF-5B3A-4C2C-BA6E-C5546E3F89AE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "798CA8BF-5B3A-4C2C-BA6E-C5546E3F89AE";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};

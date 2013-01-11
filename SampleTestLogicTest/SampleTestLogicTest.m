@@ -29,4 +29,14 @@
     //STFail(@"Unit tests are not implemented yet in SampleTestLogicTest");
 }
 
+- (void)testExample1
+{
+    //STFail(@"Unit tests are not implemented yet in SampleTestLogicTest");
+}
+
+- (void)testExample2
+{
+    //STFail(@"Unit tests are not implemented yet in SampleTestLogicTest");
+}
+
 @end

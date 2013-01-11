@@ -20,6 +20,7 @@
 		1EF44B0A157BB65D00A9848A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF44AEB157BB65D00A9848A /* Foundation.framework */; };
 		1EF44B12157BB65D00A9848A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EF44B10157BB65D00A9848A /* InfoPlist.strings */; };
 		1EF44B15157BB65D00A9848A /* SampleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF44B14157BB65D00A9848A /* SampleTestTests.m */; };
+		DE4C1E6D169F4EB9005F38F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4C1E6C169F4EB9005F38F5 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		1EF44B11157BB65D00A9848A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1EF44B13157BB65D00A9848A /* SampleTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleTestTests.h; sourceTree = "<group>"; };
 		1EF44B14157BB65D00A9848A /* SampleTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTestTests.m; sourceTree = "<group>"; };
+		DE4C1E6C169F4EB9005F38F5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		1EF44ADA157BB65C00A9848A = {
 			isa = PBXGroup;
 			children = (
+				DE4C1E6C169F4EB9005F38F5 /* Default-568h@2x.png */,
 				1EF44AEF157BB65D00A9848A /* SampleTest */,
 				1EF44B0D157BB65D00A9848A /* SampleTestTests */,
 				1EF44AE8157BB65D00A9848A /* Frameworks */,
@@ -223,6 +226,7 @@
 			files = (
 				1EF44AF4157BB65D00A9848A /* InfoPlist.strings in Resources */,
 				1EF44B00157BB65D00A9848A /* ViewController.xib in Resources */,
+				DE4C1E6D169F4EB9005F38F5 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "# Run the unit tests in this test bundle.\n#\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n\"${SRCROOT}/scripts/RunPlatformUnitTests\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

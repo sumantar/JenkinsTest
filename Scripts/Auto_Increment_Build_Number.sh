@@ -27,7 +27,7 @@ echo BUILDNUM_NEW is $BUILDNUM_NEW
 
 git checkout master
 
-git pull https://sumantar:cybage1234@github.com/sumantar/JenkinsTest.git master
+git pull https://username:password@github.com/sumantar/JenkinsTest.git master
 
 
 /usr/libexec/Plistbuddy -c "Set CFBundleVersion $BUILDNUM_NEW" "$plist"
@@ -36,7 +36,7 @@ echo "Incremented build number to $BUILDNUM_NEW"
 
 git add .
 git commit -a -m "Auto increment of build number"
-git push https://sumantar:cybage1234@github.com/sumantar/JenkinsTest.git master
+git push https://username:password@github.com/sumantar/JenkinsTest.git master
 
 git fetch
-git push https://sumantar:cybage1234@github.com/sumantar/JenkinsTest.git master
+git push https://username:password@github.com/sumantar/JenkinsTest.git master

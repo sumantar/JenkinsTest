@@ -474,7 +474,7 @@
 		1EF44B19157BB65D00A9848A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
@@ -482,6 +482,8 @@
 				GCC_PREFIX_HEADER = "SampleTest/SampleTest-Prefix.pch";
 				INFOPLIST_FILE = "SampleTest/SampleTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -490,7 +492,7 @@
 		1EF44B1A157BB65D00A9848A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
@@ -498,6 +500,7 @@
 				GCC_PREFIX_HEADER = "SampleTest/SampleTest-Prefix.pch";
 				INFOPLIST_FILE = "SampleTest/SampleTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
@@ -632,6 +635,7 @@
 				DE06403016A08E7700E1BCEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
